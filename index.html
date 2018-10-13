@@ -1,75 +1,71 @@
 <html>
     <head>
-        <title>Boxes</title>
-        <style type="text/css">
-        body{
-            font-size: 80%;
-            font-family: 'Courier New', Courier, monospace;
-            letter-spacing: 0.15em;
-            background-color: #c44343be;
-        }
-        #page {
-            max-width: 940px;
-            min-width: 720px;
-            margin: 10px auto 10px auto;
-            padding: 20px;
-            border: 4px double #000;
-            background-color: #b5bcfc6e;
-        }
-        #logo{
-            width: 150px;
-            margin: 10px auto 25px auto;
-      
-        }
-        ul{
-            width: 570px;
-            padding: 15px;
-            margin: 0px auto 0px auto;
-            border-top: 2px solid #000;
-            border-bottom: 1px solid #000;
-            text-align: center;
-        }
-        li{
-            display: inline;
-            margin: 0px 3px;
-            
-        }
-        p{
-            text-align: center;
-            width: 600px;
-            margin: 20px auto 20px auto;
-            font-weight: normal;
-        }
-        a{
-            color: #000000;
-            text-transform: uppercase;
-            text-decoration: none;
-            padding: 6px 18px 5px 18px;
-        }
-        a:hover, a.on{
-            color: #cc3333;
-            background-color: #ffffff;
-        }
-        </style>
+        <title>Layout</title>
+        <link rel="stylesheet" href="css/960_12_col.css"/>
+        <link rel="stylesheet" href="css/Layout.css"/>
     </head>
     <body>
-        <div id="page">
-            <div id="logo">
-                <img width="100" height="50" src="images/fuck.jpg" alt="The Analog Specialists">
+        <div class="header">
+            <div class="container_12">
+                <div class="grid_5">
+                    <img src="images/logo.png" alt="Pedal Faster - the modern bicycle magazine" width="216" height="37" class="logo" />
+                    <img src="images/header-triangle.png" alt="" width="116" height="100">
+                </div>
+                <div class="nav grid_7">
+                    <a href="">home</a> / <a href="">news</a> / <a href="">archives</a>/
+                    <a href="">about</a> / <a href="">contact</a>
+                </div>
             </div>
-            <ul id="navigation">
-                <li><a href="#" class="on">Home</a></li>
-                <li><a href="#">For Sale</a></li>
-                <li><a href="#">Repairs</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-            <p><img src="images/fuck2.jpeg" alt="Fender Rhodes, Hohner Clavinet
-                and Wurlitzer EP200"></p>
-                <p>
-                    We specialise in the sales and repair of classic keyboards, in particular
-                    the Fender Rhodes, Wuriltzer EP200, and Hohner Clavinet.
-                </p>
         </div>
-    </body>
+        <div class="main-story container_12">
+            <div class="grid_6 push_6">
+                <h1><a href="">Fixed Gear Forever</a></h1>
+            </div>
+            <div class="intro grid_3 push_9">
+                <p class="date">16 APRIL 2011</p>
+                <p>The veloheld combines minimalist design with superb quality.
+                    Devoid of excessive graphics and grear shift components, the veloheld product range
+                    delights us with its beauty and simplicity Under the main article you can see four blocks, each of which is 3
+                    columns wide. These contain images followed by links to more articles. <br>
+                    At the start of the page, the header uses fixed positioning (meaning that
+                    it does not move when the user scrolls down the page). The z-index
+                    property is added to the header to keep it on top of the remaining
+                    content as the user scrolls down the page.
+                </p>
+            </div>
+        </div> <!-- .main-story -->
+        <div class="more-articles container_12">
+            <h2 class="grid_12"><a href="">More Articles</a></h2>
+            <div class="grid_3">
+                <img src="images/more1.jpg" alt="the road ahead" width="220" height="125">
+                <p><a href="">On the Road: from he fixed gear fanatic's point of view</a></p>
+                <p><a href="">Brand History: Pashley Cycle - hand-bult in England</a></p>
+                <p><a href="">Frame Wars: Innovations in cycle manufacture and repair</a></p>
+            </div>
+            <div class="grid_3">
+                <img src="images/more2.jpg" alt="Sketchbook" width="220" height="125">
+                <p><a href="">Touring Diary: A sketchbook in your basket</a></p>
+                <p><a href="">Top Ten Newcomers for 2012: A peek at what's to come</a></p>
+                <p><a href="">InnerTube: The best cycling videos on the web</a></p>
+            </div>
+            <div class="grid_3">
+                    <img src="images/more3.jpg" alt="Repair shop sign" width="220" height="125" />
+                    <p><a href="">Product Review: All baskets were not created equal</a></p>
+                    <p><a href="">Going Public: Out &amp; About with the founder of Public</a></p>
+                    <p><a href="">Cycle Lane Defence: Know your rights</a></p>
+            </div>
+            <div class="grid_3">
+                    <img src="images/more4.jpg" alt="Schwinn Spitfire" width="220" height="125" />
+                    <p><a href="">Bicyle Hall of Fame: The 1958 Schwinn Spitfire</a></p>
+                    <p><a href="">Reader Survey: Share your thoughts with us!</a></p>
+                    <p><a href="">Chain Gang: The evolution of the humble bike chain</a></p>
+                    </div>
+        </div><!-- .more-articles -->
+    </body><!-- .wrapper -->
+    <div class="footer clearfix">
+            <div class="container_12">
+            <p class="grid_12"><a href="">Legal Information</a> | <a href="">Privacy
+            Policy</a> | <a href="">Copyright &copy; Pedal Faster 2011</a></p>
+            </div>
+            </div>
 </html>
