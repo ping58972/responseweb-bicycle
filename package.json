@@ -1,0 +1,19 @@
+{
+  "name": "bicycle",
+  "version": "1.0.0",
+  "description": "<a href=\"https://ping58972.github.io/practice-web-response/\"><img src=\"https://a.imge.to/2019/07/12/qyZjG.png\" target=\"_blank\" alt=\"Reaponse Website\"></a>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ping58972/ping58972.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ping58972/ping58972.github.io/issues"
+  },
+  "homepage": "https://github.com/ping58972/ping58972.github.io#readme"
+}
