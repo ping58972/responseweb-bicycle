@@ -9,12 +9,6 @@ The purpose of website is for practice front-end skill with vary technology. And
 - [HTML5](#) - The web framework used.
 - [CSS](#) - The web framework used.
 
-## Getting Started
-
-## Deployment
-
-or you can go to <a href="https://github.com/ping58972/responseweb-bicycle">github page website</a> that had been deployed to show the result of this project.
-
 ## Authors
 
 - **(Ping) Nalongsone Daddank** - _Initial work_ - [ping58972](https://github.com/ping58972)
